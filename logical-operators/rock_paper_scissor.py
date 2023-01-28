@@ -20,7 +20,7 @@ if wrong_value2:
 	exit()
 else:
 	if player1 == player2:
-		print('No one wins, please play again!') 
+		print('It\'s a draw!') 
 	elif player1 == 'rock' and player2 == 'scissor':
 		print('Player 1 wins')
 	elif player1 == 'paper' and player2 == 'rock':
