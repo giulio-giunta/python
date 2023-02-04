@@ -1,0 +1,59 @@
+# Difference between functions and methods:
+# A method is just a type of function! When we have a function that is attached 
+# to a specific object, i.e. a list, it becomes a method of a list
+
+# Built-in functions:
+print()
+len() -> to get the number of character in a string or the number of elements in a list
+round() -> to round a number
+choice() -> to choose an element at random
+list() -> to create a list
+int() -> to convert into an integer
+bool() -> to convert into a boolean 
+dict() -> to create a dictionnary
+
+
+# String methods
+.upper() -> to convert to upper case 
+.lower() -> to convert to lower case
+.capitalize() -> to make upper case only the first character in a list
+
+# List methods
+
+# to add elements
+.append() -> to add one element only at the end of a list
+my_list.append('new_element')
+
+.extend() -> to add multiple elements at the end of a list
+my_list.extend(['element_1', 2, 'element_2])
+
+.insert() -> to add an element in a list after a specific index position in the list
+my_list.insert(index,'element)
+
+# to delete elements
+.clear() -> to delete all elements from a list
+my_list.clear()
+
+.pop() -> to remove an elemnet from a list by specifying the index; if no element it's specified, the last element is deleted
+my_list.pop(): will delete the last element; my_list.pop(0): will delete the first element
+
+.remove() -> to remove the first occurrence of an element whose value is in the list
+my_list.remove(element_value)
+
+# a mix of methods for lists
+.index() -> to find the index of an element (included in the parenthesis) - can specify start and end
+my_list.index(element_value)
+
+.count() -> to return the number of times an element appears in a list - need to include the element in the parenthesis
+my_list.count(element_value)
+
+.reverse() -> to reverse the order of the list in place
+my_list.reverse()
+
+.sort() -> to sort the name of the list in place (in ascending order)
+my_list.sort()
+
+.join() -> it's a method used for strings, so in a list it joins for example the items in a list in a long strings
+fratelli = ['Lorenzo', "Bruno"]
+fratelli = " e ".join(fratelli)
+print(f'{fratelli} sono i miei fratelli')
