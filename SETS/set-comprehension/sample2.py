@@ -1,0 +1,1 @@
+print({char.upper() for char in 'hello'})
