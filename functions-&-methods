@@ -10,7 +10,7 @@ choice() -> to choose an element at random
 list() -> to create a list
 int() -> to convert into an integer
 bool() -> to convert into a boolean 
-dict() -> to create a dictionnary
+dict() -> to create a dictionary
 tuple() -> to create tuples
 set() -> to create sets
 
@@ -62,17 +62,17 @@ fratelli = ['Lorenzo', "Bruno"]
 fratelli = " e ".join(fratelli)
 print(f'{fratelli} sono i miei fratelli')
 
-# Dictionnary methods
-.values() -> to retrieve values from a dictionnary
-.keys() -> to retrieve keys from a dictionnary
-.items() -> to retrieve keys and values from a dictionnary
-.clear() -> to clear a dictionnary from all keys and values
-.copy() -> to copy a dictionnary
-{}.fromkeys() or dict.fromkeys() -> to populate an empty dictionnary with keys from an iterable (list, string,[] etc) and a defined value.
-.get() -> to the value of a key if it exists in the dictionnary; it works similarly as "value in dict()", but it return 'None' if no key exists.
-.pop() -> to remove an item from a dictionnary; needs the key of the item to delete inside the brackets
+# dictionary methods
+.values() -> to retrieve values from a dictionary
+.keys() -> to retrieve keys from a dictionary
+.items() -> to retrieve keys and values from a dictionary
+.clear() -> to clear a dictionary from all keys and values
+.copy() -> to copy a dictionary
+{}.fromkeys() or dict.fromkeys() -> to populate an empty dictionary with keys from an iterable (list, string,[] etc) and a defined value.
+.get() -> to the value of a key if it exists in the dictionary; it works similarly as "value in dict()", but it return 'None' if no key exists.
+.pop() -> to remove an item from a dictionary; needs the key of the item to delete inside the brackets
 .popitem -> to delete an item at random; does not need to specify any keys
-.update() -> to add the items of a dictionnary into an othe dictionnary or overwrite the existing items with new values but doesn't delete anything if an empty dictionnary is passed
+.update() -> to add the items of a dictionary into an othe dictionary or overwrite the existing items with new values but doesn't delete anything if an empty dictionary is passed
 
 # Tuple methods
 .count() -> to return the number of times an element appears in a tuple
