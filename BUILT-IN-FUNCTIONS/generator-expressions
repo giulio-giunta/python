@@ -1,0 +1,1 @@
+To save memory and make things less intensive, you do not need to add list comprehension brackets, unless you need a list at the end of of it, but if you just passing it in for something like 'any' or 'all', you do not need to add list comprehension brackets.

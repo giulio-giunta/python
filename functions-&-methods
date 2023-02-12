@@ -19,6 +19,7 @@ set() -> to create sets
 .upper() -> to convert to upper case 
 .lower() -> to convert to lower case
 .capitalize() -> to make upper case only the first character in a list
+.replace() -> to replace a character in a string with another. This method requires 2 items: the old and the new one.
 
 # List methods
 

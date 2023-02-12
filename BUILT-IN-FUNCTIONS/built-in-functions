@@ -1,0 +1,54 @@
+all -> return True if all elements of the iterable are truthy (or the iterable is empty)
+all([0,1,2,3]) # False  | 
+all(char for char in 'eio' if char in 'aeiou') # True
+
+any -> returns True if any element of the iterable is truthy. If the iterable is empty, return False
+any([0,1,2,3]) # True |
+any([val for val in [1,2,3] if val > 5]) # False
+
+max -> return the largest item in an iterable or the largest of two or more arguments
+max[3,67,99] # 99
+max['c', 'd', 'a'] # 'd'
+max('awesome') # 'w'
+max{1: 'a', 3: 'c', 2: 'b'} # 3
+max((3,5,25,65)) # 65
+
+min -> return the smallest item in an iterable or the smallest of two or more arguments
+min(3,67,99) # 3
+min('hello world') # ' '
+
+reverse -> is a way to reverse any iterator that you wanna work with if you going to iterate over something in reverse.
+# list.reverse() reverses a list in place. Reversed does not return a list, so you'll need to cast its 
+# object into a list if you need to get a list
+
+len -> return the length (the number of items) of an object. The argument may be a sequence (such as a 
+# string, tuple, list, or range) or a collection (such a dictionary, set).
+# Behind the scenes the len built-in function calls the __len__() method.
+
+len('awesome') # 7
+len([1,2,3,4]) # 4
+len((1,2,3,4)) #4
+len(range(0,10)) # 10
+len({1,2,3,4}) # 4
+len({'a': 1, 'b': 2, 'c': 2}) # 3
+
+abs -> returns the absolute value of a number. The argument may be an integer or a floating point number.
+abs(-5) # 5
+abs(5) # 5
+abs(3.4444) # 3.4444
+abs(-3.4444) # 3.4444
+
+sum -> takes an iterable an optional start. Returns the sum of start and the item of an iterable from left
+# to right and return the total. Start defaults to 0.
+sum([1,2,3]) # 6
+sum([1,2,3], 10) # 16
+sum ([1,2,3], -6) # 0
+sum((1.5,2.3,2.7)) # 6.5
+sum({1,50,100}) # 151
+
+round -> return a number rounded to ndigits precision after the decimal point. If ndigits is omitted or is 
+# None, it returns the nearest integer to its input.
+round(10.2) # 10
+round(1.21233, 2) # 1.21
+round(3.523, None) # 4
+round(9.999999999999999999999999999999999999999999999999999, 15) # 10
