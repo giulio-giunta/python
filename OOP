@@ -23,3 +23,13 @@ ABSTRACTION
 Abstraction - exposing only "relevant" data in a class interface, hiding private attributes and methods
 (aka the "inner workings") from users.
 
+SELF
+
+The SELF keyword refers to the current class instance. SELF must always be the first parameter to __init__
+and any methods and properties on class instances.
+
+CLASS METHODS
+
+Class methods are methods (with the @classmethod decorator) that are not concerned with instances, but the
+class itself.
+
