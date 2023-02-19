@@ -1,0 +1,25 @@
+What is OOP?
+
+Object oriented programming is a method of programming that attempts to model some process or thing
+in the world as a CLASS or OBJECT.
+
+CLASS - a blueprint for objects. Classes can contain methods (functions) and attributes (similar to
+keys in a dictionary) 
+
+INSTANCE - objects that are constructed from a class blueprint that contain their class's methods and
+properties.
+
+ENCAPSULATION
+
+Encapsulation - the grouping of public and private attributes and methods into a programmatic class, 
+making abstraction possible.
+Example
+* Designing the Deck class, I make cards a private attribute (a list)
+* I decide that the length of the cards should be accessed via a public method called count() -- i.e.
+Deck.count()
+
+ABSTRACTION
+
+Abstraction - exposing only "relevant" data in a class interface, hiding private attributes and methods
+(aka the "inner workings") from users.
+

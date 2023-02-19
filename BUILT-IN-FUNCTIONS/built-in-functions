@@ -50,5 +50,16 @@ round -> return a number rounded to ndigits precision after the decimal point. I
 # None, it returns the nearest integer to its input.
 round(10.2) # 10
 round(1.21233, 2) # 1.21
-round(3.523, None) # 4
+(round(3.523, None) # 4
 round(9.999999999999999999999999999999999999999999999999999, 15) # 10
+
+zip -> given lists, it combines the elements of the lists in tuples, each tuples with the first, second, 
+# etc elements from all the lists. If the list don't have the same length, it stop zipping once the list
+# with the fewer number of elements has no more items to zip. 
+first_zip = zip([1,2,3], [4,5,6])
+list(first_zip) # [(1,4), (2,5), (3,6)]
+dict(first_zip) # {1: 4, 2: 5, 3: 6}
+
+five_by_two = {(0,1), (1,2), (3,4), (5,6), (7,8), (9,10))}
+list(zip(*five_by_two))
+[(0,1,2,3,4,5), (6,7,8,9,10)]

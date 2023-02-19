@@ -1,0 +1,8 @@
+- Syntax error -> when the syntax is wrong.
+- NameError -> when a variable has not been assigned.
+- TypeError -> when there is a mismatch of data type
+- IndexError -> when you try to access an element in a list (or string) using an invalid index (i.e. one that is outside the range of the list or string)
+- ValueError -> when a built-in operation or function receives an argument that has the right type but an inappropriate value (for example int('foo'))
+- KeyError -> when a dictionary does not have a specific key
+- AttributeError -> when a variable does not have an attribute, for example 'awesome'.foo or [1,2,3].hello()
+- 
