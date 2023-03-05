@@ -1,4 +1,4 @@
-class Animal():
+class Animal:
 	def speak(self):
 		raise NotImplementedError('Subclass needs to implement this method')
 
