@@ -22,7 +22,6 @@ def get_multiples(num=3, count=10):
         yield next_num
         count -= 1
         next_num += num
-        print(next_num)
         
 default_multiples = get_multiples()
 print(list(default_multiples))
