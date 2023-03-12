@@ -17,6 +17,10 @@
 #     return "?"
 
 def speak(animal='dog'):
+    '''
+    >>> speak('pig')
+    'oink'
+    '''
     noises = {'pig':'oink', 'duck':'quack', 'cat':'meow', 'dog':'woof'}
     return noises.get(animal, '?')
 
