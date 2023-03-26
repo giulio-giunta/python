@@ -1,0 +1,20 @@
+file = open('test.txt')
+print(file.read())
+print(file.read())
+file.seek(0)
+print(file.read())
+file.seek(3)
+print(file.read())
+file.seek(0)
+print(file.readline())
+print(file.read())
+
+file.seek(0)
+print(file.readlines())
+
+print(file.closed)
+file.close()
+print(file.closed)
+file.read()
+file.seek(0)
+
